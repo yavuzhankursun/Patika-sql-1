@@ -1,4 +1,4 @@
-# Patika-sql-1
+# SQL Exercise 1
 
 **Soru 1)**: film tablosunda bulunan title ve description sütunlarındaki verileri sıralayınız.  
 
