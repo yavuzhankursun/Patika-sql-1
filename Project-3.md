@@ -1,15 +1,19 @@
-**Soru 1**
-Soru: country tablosunda bulunan country sütunundaki ülke isimlerinden 'A' karakteri ile başlayıp 'a' karakteri ile sonlananları sıralayınız.
-Cevap : `SELECT * FROM country WHERE country LIKE 'A%a';`
+**Question 1 :**
+ Sort the country names in the country table that start with the character 'A' and end with the character 'a'.
 
-**Soru 2**
-Soru: country tablosunda bulunan country sütunundaki ülke isimlerinden en az 6 karakterden oluşan ve sonu 'n' karakteri ile sonlananları sıralayınız.
-Cevap : `SELECT * FROM country WHERE LENGTH(country) >= 6 AND country LIKE '%n';`
+**Answer:** `SELECT * FROM country WHERE country LIKE 'A%a';`
+  
+**Question 2 :**
+Sort the country names in the country table that have at least 6 characters and end with the character 'n'.
 
-**Soru 3**
-Soru: film tablosunda bulunan title sütunundaki film isimlerinden en az 4 adet büyük ya da küçük harf farketmesizin 'T' karakteri içeren film isimlerini sıralayınız.
-Cevap : `SELECT title FROM film WHERE title ILIKE '%T%T%T%T';`
+**Answer:** `SELECT * FROM country WHERE LENGTH(country) >= 6 AND country LIKE '%n';`
 
-**Soru 4**
-Soru: film tablosunda bulunan tüm sütunlardaki verilerden title 'C' karakteri ile başlayan ve uzunluğu (length) 90 dan büyük olan ve rental_rate 2.99 olan verileri sıralayınız.
-Cevap : `SELECT * FROM film WHERE title LIKE 'C%' AND length > 90 AND rental_rate = 2.99;`
+**Question 3 :**
+Sort the film names from the title column in the film table that contain at least 4 occurrences of the character 'T', regardless of case (uppercase or lowercase).
+
+**Answer:** `SELECT title FROM film WHERE title ILIKE '%T%T%T%T';`
+
+**Question 4 :**
+Sort all data from the film table where the title starts with the character 'C', has a length greater than 90, and the rental_rate is 2.99.
+
+**Answer:** `SELECT * FROM film WHERE title LIKE 'C%' AND length > 90 AND rental_rate = 2.99;`
