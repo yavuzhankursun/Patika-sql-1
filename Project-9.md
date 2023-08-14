@@ -1,16 +1,16 @@
-## **Soru 1)** city tablosu ile country tablosunda bulunan şehir (city) ve ülke (country) isimlerini birlikte görebileceğimiz INNER JOIN sorgusunu yazınız.
+## **Question 1)** Write the INNER JOIN query that we can see the city and country names in the city table and country table together.
 
 
-**Cevap :** `SELECT city,country FROM city INNER JOIN country ON country.country_id = city.country_id;`
+**ANSWER :** `SELECT city,country FROM city INNER JOIN country ON country.country_id = city.country_id;`
 
 
-## **Soru 2)** customer tablosu ile payment tablosunda bulunan payment_id ile customer tablosundaki first_name ve last_name isimlerini birlikte görebileceğimiz INNER JOIN sorgusunu yazınız.
+## **Question 2)** Write the INNER JOIN query in which we can see the payment_id in the customer table and payment table and the first_name and last_name names in the customer table together.
 
 
-**Cevap :** `SELECT payment_id,first_name,last_name FROM customer INNER JOIN payment ON payment.customer_id = customer.customer_id;`
+**ANSWER :** `SELECT payment_id,first_name,last_name FROM customer INNER JOIN payment ON payment.customer_id = customer.customer_id;`
 
 
-## **Soru 3)** customer tablosu ile rental tablosunda bulunan rental_id ile customer tablosundaki first_name ve last_name isimlerini birlikte görebileceğimiz INNER JOIN sorgusunu yazınız.
+## **Question 3)** Write the INNER JOIN query in which we can see the first_name and last_name names in the customer table together with the rental_id in the customer table and rental table.
 
 
-**Cevap :** `SELECT rental_id,first_name,last_name FROM customer INNER JOIN rental ON rental.customer_id = customer.customer_id;`	
+**ANSWER :** `SELECT rental_id,first_name,last_name FROM customer INNER JOIN rental ON rental.customer_id = customer.customer_id;`	
