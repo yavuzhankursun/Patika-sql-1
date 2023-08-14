@@ -9,3 +9,4 @@
 ## [PROJECT 6](https://github.com/yavuzhankursun/SQL_Exercise/blob/main/Project-6.md)
 ## [PROJECT 7](https://github.com/yavuzhankursun/SQL_Exercise/blob/main/Project-7.md)
 ## [PROJECT 8](https://github.com/yavuzhankursun/SQL_Exercise/blob/main/Project-8.md)
+## [PROJECT 9](https://github.com/yavuzhankursun/SQL_Exercise/blob/main/Project-9.md)
